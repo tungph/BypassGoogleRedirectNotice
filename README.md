@@ -75,12 +75,32 @@ If Chrome asks for additional permissions:
 To modify or contribute to this extension:
 
 1. Edit the files in the `src` directory
-2. To generate new icon files, run:
+2. Use the included Makefile to simplify development tasks:
+   ```
+   make install    # Install dependencies
+   make icons      # Generate icon files
+   make build      # Package the extension
+   make clean      # Remove build artifacts
+   make help       # Show all available commands
+   ```
+3. Alternatively, you can use npm directly to generate icons:
    ```
    npm install
    npm run generate-icons
    ```
-3. Load the updated extension using Chrome's "Load unpacked" option
+4. Load the updated extension using Chrome's "Load unpacked" option
+
+### Makefile
+
+This project includes a Makefile to simplify common development tasks. The Makefile provides the following targets:
+
+- `make` or `make build` - Package the extension into a zip file
+- `make install` - Install npm dependencies
+- `make icons` - Generate icon files from source
+- `make clean` - Remove build artifacts (zip files)
+- `make help` - Display information about available commands
+
+Run `make help` at any time to see the list of available commands and their descriptions.
 
 ## Privacy
 
