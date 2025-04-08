@@ -1,0 +1,22 @@
+{
+  "name": "bypass-google-redirect-notice",
+  "version": "1.0.0",
+  "description": "A Chrome extension to bypass Google's redirect notice pages",
+  "main": "src/background.js",
+  "scripts": {
+    "generate-icons": "node generate_icons.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chrome-extension",
+    "google",
+    "redirect",
+    "bypass"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "canvas": "^2.11.0"
+  }
+}
+
