@@ -1,6 +1,8 @@
 # Bypass Google Redirect Notice
 
 A Chrome extension that automatically bypasses Google's redirect notice pages, taking you directly to your destination URL.
+Usecase:
+I'm a heavy [Alfred](https://alfred.app/) user. I usually use Alfred to open websites using Google I Feel lucky; for example, when I want to access GitHub, I prefer to go directly to https://github.com instead of going through https://www.google.com/url?q=https://github.com/. This extension is the solution.
 
 ![Extension Icon](src/icon-128.png)
 
