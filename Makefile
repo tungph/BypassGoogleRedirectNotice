@@ -22,8 +22,8 @@ help:
 	@echo "  make install      Install npm dependencies"
 	@echo "  make build        Package the extension into a zip file"
 	@echo "  make clean        Remove build artifacts (zip files)"
-	@echo "  make icons        Generate icon files from source SVG"
-	@echo "  make help         Display this help message"
+	@echo "  make clean        Remove build artifacts (zip files)"
+	@echo "  make icons        Generate icon files from source PNG"
 	@echo ""
 
 # Install dependencies
@@ -48,5 +48,5 @@ clean:
 .PHONY: icons
 icons:
 	@echo "Generating icon files..."
-	npm run generate-icons
+	./convert_icons.py  # Python script that resizes icon.png to multiple sizes
 
