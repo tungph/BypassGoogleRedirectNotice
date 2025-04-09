@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0] - 2025-04-09
+
+### Added
+- First official release
+- Improved redirect handling for Google search results
+- Enhanced compatibility with Chrome manifest v3
+
+### Changed
+- Updated extension permissions to minimal required set
+- Optimized background script for better performance
+
 ## [0.1.0] - 2025-04-08
 
 ### Added
@@ -22,6 +33,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated Makefile to support the new icon conversion process
 - Enhanced README.md with Makefile documentation
 
-[Unreleased]: https://github.com/username/BypassGoogleRedirectNotice/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/username/BypassGoogleRedirectNotice/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/username/BypassGoogleRedirectNotice/compare/v0.1.0...v1.0.0
 [0.1.0]: https://github.com/username/BypassGoogleRedirectNotice/releases/tag/v0.1.0
 
