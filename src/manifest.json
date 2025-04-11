@@ -1,10 +1,9 @@
 {
   "name": "Bypass Google Redirect Notice",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bypasses Google's redirect notice page and directly navigates to the destination URL",
   "manifest_version": 3,
   "permissions": [
-    "webRequest",
     "declarativeNetRequest"
   ],
   "host_permissions": [
